@@ -43,7 +43,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
+        self.title = NSLocalizedStringFromTable(@"Second", @"InAppEmail", @"Second");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
@@ -129,8 +129,8 @@
 //                
 //            default:
 //            {
-//                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Email Error", @"Email Error Alert Message Title") 
-//                                                                message:NSLocalizedString(@"Email Send Error", @"Error message when email cannot be sent due to an error.")
+//                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTable(@"Email Error", @"InAppEmail", @"Email Error Alert Message Title") 
+//                                                                message:NSLocalizedStringFromTable(@"Email Send Error", @"InAppEmail", @"Error message when email cannot be sent due to an error.")
 //                                                               delegate:self
 //                                                      cancelButtonTitle:@"OK"
 //                                                      otherButtonTitles: nil];

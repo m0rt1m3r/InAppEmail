@@ -51,7 +51,7 @@
 
 -(void)send {
     if ([MFMailComposeViewController canSendMail] == NO) {
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"Cannot Send Emails", @"Error message when email not configured or disabled.") delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:NSLocalizedStringFromTable(@"Cannot Send Emails", @"InAppEmail", @"Error message when email not configured or disabled.") delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
 		[alert show];
 		return;
 	}
@@ -107,8 +107,8 @@
             
             default:
                 {
-                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Email Error", @"Email Error Alert Message Title") 
-                                                                    message:NSLocalizedString(@"Email Send Error", @"Error message when email cannot be sent due to an error.")
+                    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTable(@"Email Error", @"InAppEmail", @"Email Error Alert Message Title") 
+                                                                    message:NSLocalizedStringFromTable(@"Email Send Error", @"InAppEmail", @"Error message when email cannot be sent due to an error.")
                                                                    delegate:self
                                                           cancelButtonTitle:@"OK"
                                                           otherButtonTitles: nil];

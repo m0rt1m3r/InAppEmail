@@ -29,8 +29,8 @@
 #import <MessageUI/MessageUI.h>
 
 //config - see also Localizable.strings file
-#define SUBJECT NSLocalizedString(@"In App Email", @"Feedback email subject line")
-#define BODY NSLocalizedString(@"Hello", "Thank you for downloading our app. We are really appreciate your feedback\n---")
+#define SUBJECT NSLocalizedStringFromTable(@"InAppEmail", @"In App Email", @"Feedback email subject line")
+#define BODY NSLocalizedStringFromTable(@"Hello", @"InAppEmail", "Thank you for downloading our app. We are really appreciate your feedback\n---")
 #define SEND_AS_HTML NO
 //#define SEND_TO @"feedback@yourmail.com,oncall@yourmail.com"
 #define SEND_TO @"notatkiprogramisty@gmail.com,spritebandits@gmail.com"

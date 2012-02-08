@@ -1,7 +1,7 @@
 /* 
-  InAppMail-Example.strings
-  InAppMail-Example
-
+ InAppMail.strings
+ InAppMail
+ 
  //
  // Created by Damian/MORT on 07/01/2012.
  //
@@ -28,8 +28,8 @@
  // 
  
  */
-"Cannot Send Emails" = "This device is not able to send mails";
-"Email Send Error" = "Sending Failed - Unknown Error :-(";
-"Email Error" = "Email Error";
-"In App Email" = "In app Feedback";
-"Hello" = "Thank you for downloading our app. We are really appreciate your feedback\n---";
+"Cannot Send Emails" = "Twoje urządzenie nie jest odpowiednio skonfigurowanie i nie może wysyłać wiadomości email.";
+"Email Send Error" = "Wystąpił błąd. Nie udało się wysłać wiadomości email.";
+"Email Error" = "Wystąpił błąd";
+"In App Email" = "Opinia o aplikacji";
+"Hello" = "Dziękujemy za ściągnięcie naszej aplikacji.\n---";
